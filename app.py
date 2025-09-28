@@ -78,8 +78,36 @@
 #     count -=1;
 
 
-gobolada = ["banaadir","baydhabo","bay","bakool"];
+# gobolada = ["banaadir","baydhabo","bay","bakool"];
 
-for g in gobolada:
-    print(g);
+# for g in gobolada:
+#     print(g);
+
+
+# chapter 4
+
+# function in python (def)
+
+# function declarationn  or deffination
+# def greet():
+#     print("hello welcome to data science");
+# function calling or invoking
+# greet();
+
+#  function with parameter
+
+# def add(a,b):
+#     return a + b;
+# result = add(6,8);
+# print(f"the addation of a and b is : {result}")
+
+# default paramiter
+
+def my_naem(name = "ibrahim"):
+    print(f"hello mr {name}! welcome to data sscience");
+
+my_naem()
+my_naem("ahmed")
+
+
 
