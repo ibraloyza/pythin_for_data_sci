@@ -40,3 +40,13 @@ print(f"the even numbers is the list is : {even_numbers}")
 
 odd_numbers = list(filter(lambda x: x%2 != 0 , numbers));
 print(f"the odd numbers in the list is : {odd_numbers}");
+
+# here is an example of discount calculation using lampda function
+prices = [100,200,300,400,500];
+discounted_prices = list(map(lambda x: (x-x*0.1),prices));
+print(f"the discounted prices is : {discounted_prices}");
+
+# practice problems
+# 1. write a function thar takes two numbers as input and returns their product using a lambda function.
+
+# 2. write a function with default parameter welcome(name="Guest") that prints a welcome message using a lambda function.
