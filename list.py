@@ -57,3 +57,8 @@ numbers = list((1,2,3,4,5,6,7,8,9,10));
 print(f"the list items in the numbers list is : {numbers}");
 # here is an example of finding the index of an item in a list using the index() method:
 print(f"the index of 5 in the numbers list is : {numbers.index(5)}");
+
+# mini project: create a list of your favorite movies and print them one by one
+favorite_movies = ["Inception", "The Dark Knight", "Interstellar", "The Matrix", "Pulp Fiction"];
+for movie in favorite_movies:
+    print(f"my favorite movie is : {movie}");
