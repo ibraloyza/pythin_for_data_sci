@@ -41,3 +41,32 @@ print(f"the set created using the set() constructor is : {my_set}");
 my_list = ["apple", "banana", "cherry"]
 my_set_from_list = set(my_list)
 print(f"the set created from a list is : {my_set_from_list}");
+
+# here is an example of converting a tuple to a set
+my_tuple = ("apple","banaana","cherry");
+my_set_from_tuple = set(my_tuple);
+print(f"the set created from a tuple is : {my_set_from_tuple}");
+
+# here is an example of converting a string to a set
+my_string = "hello"
+my_set_from_string = set(my_string);
+print(f"the set created from a string is : {my_set_from_string}");
+
+# here is an example of using set methods to perform set operations
+set1 = {"apple","banaana ", "cherry"};
+set2 = { "google","microsoft","apple" };
+# union() method returns a set that contains all items from both sets, duplicates are excluded
+
+set3 = set1.union(set2);
+print(f"the unicon of set1 and set2 is : {set3}");
+# intersection() method returns a set that contains only the items that are present in both sets
+set4 = set1.intersection(set2);
+print(f"the intersection of set1 and set2 is : {set4}");
+# difference() method returns a set that contains the items that are present in the first set but not in the second set
+set5 = set1.difference(set2);
+print(f"the difference of set1 and set2 is : {set5}");
+# This code is intended to help you understand the basic concepts and operations of sets in Python and improve your 
+
+# these are all methods of the set data structure in Python.
+# unicon() method , intersection() method , difference() method , add() method , remove() method , discard() method , pop() method , clear() method , set() constructor and len() function. 
+
